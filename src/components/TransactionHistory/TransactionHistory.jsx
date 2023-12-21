@@ -1,4 +1,4 @@
-import styles from './TransactionHistory.module.css'
+//import styles from './TransactionHistory.module.css'
 
 const TransactionHistory = ({ items }) => {
   const elements = items.map(transaction =>

@@ -1,4 +1,4 @@
-import styles from './Statistics.module.css'
+//import styles from './Statistics.module.css'
 
 const Statistics = ({ title, stats,} ) => {
   const elements = stats.map(item =>
