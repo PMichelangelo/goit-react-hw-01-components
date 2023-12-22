@@ -1,4 +1,4 @@
-//import styles from './TransactionHistory.module.css'
+import styles from './TransactionHistory.module.css'
 
 const TransactionHistory = ({ items }) => {
   const elements = items.map(transaction =>
@@ -9,7 +9,7 @@ const TransactionHistory = ({ items }) => {
     </tr>)
 
   return (
-    <table className="transaction-history">
+    <table className={styles.transactionHistory}>
   <thead>
     <tr>
       <th>Type</th>
