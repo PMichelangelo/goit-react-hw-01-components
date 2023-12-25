@@ -12,4 +12,26 @@
   align-items: center;
   gap: 15px;
   box-shadow: 1px 5px 8px rgba(0, 0, 0, 0.2);
+  transition: 300ms ease-in-out;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.item:hover {
+  transform: scale(1.1);
+}
+
+.status,
+.statusOnline {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
+
+.status {
+  background-color: red;
+}
+
+.statusOnline {
+  background-color: green;
 }

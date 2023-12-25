@@ -2,6 +2,8 @@
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  background-color: #fff;
+  margin-bottom: 20px;
 }
 
 .profile {
@@ -26,11 +28,21 @@
   height: 150px;
   border-radius: 100%;
   border: 1px solid black;
+  transition: 300ms ease-in-out;
+}
+
+.avatar:hover {
+  transform: scale(1.1);
 }
 
 .name {
   font-weight: 700;
   font-size: 26px;
+  transition: 300ms ease-in-out;
+}
+
+.name:hover {
+  color: darkcyan;
 }
 
 .txtGrey {
